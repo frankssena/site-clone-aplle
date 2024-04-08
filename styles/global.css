@@ -1,5 +1,6 @@
 :root {
   --bg-primary: #000000;
+  --bg-header-nav:#86868B;
   --text-light: #FFFFFF;
   --text-dark: #1D1D1F;
   --title-primary-color: #F5F5F7;
@@ -7,12 +8,12 @@
   --action-color: #2997FF;
   --spirited-main-color: #DED2B9;
 }
-
 header {
   background-color: var(--bg-primary);
   position: sticky;
-  z-index: 1;
-  opacity: 80%;
+  z-index: 999;
+  opacity: 99%;
+  margin-bottom: 12px;
 }
 header nav ul {
   display: flex;
@@ -25,4 +26,38 @@ header nav ul {
 }
 header nav ul a{
   color: var(--text-light);
+}
+header section {
+  background-color: var(--bg-primary);
+  color: var(--text-light);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section-title {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+}
+.section-title h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.section-title p {
+  color: var(--subtitle-color);
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-top: 8px;
+}
+.section-title a {
+  color: var(--action-color);
+  font-size: 0.8rem;
+}
+.section-title a:hover {
+ text-decoration: underline;
+}
+.section-shopping-event img{
+  width: 100%;
+  margin-top: -50px;
 }
