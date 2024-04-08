@@ -4,3 +4,9 @@
   box-sizing: border-box; 
   font-family: 'Roboto';
 }
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}

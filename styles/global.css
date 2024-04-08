@@ -7,3 +7,22 @@
   --action-color: #2997FF;
   --spirited-main-color: #DED2B9;
 }
+
+header {
+  background-color: var(--bg-primary);
+  position: sticky;
+  z-index: 1;
+  opacity: 80%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  padding: 22px 0;
+}
+header nav ul a{
+  color: var(--text-light);
+}
